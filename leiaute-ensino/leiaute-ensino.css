@@ -1,0 +1,138 @@
+@media screen and (min-width: 0){
+
+    .series-principal{
+        width: 340px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .series-conteudos{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .series-conteudos a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .anos1{
+        width: 205px;
+        background-color: #F2C12E;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    .anos1 img{
+        width: 200px;
+        border-radius: 10px;
+    }
+
+    .anos2{
+        width: 205px;
+        background-color: #7F58A6;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .anos2 img{
+        width: 200px;
+        border-radius: 10px;
+    }
+    
+}
+
+@media screen and (min-width: 768px){
+    .series-principal{
+        width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .series-conteudos{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .series-conteudos a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .anos1{
+        width: 305px;
+        background-color: #F2C12E;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    .anos1 img{
+        width: 300px;
+        border-radius: 10px;
+    }
+
+    .anos2{
+        width: 305px;
+        background-color: #7F58A6;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .anos2 img{
+        width: 300px;
+        border-radius: 10px;
+    }
+}
+
+
+@media screen and (min-width: 992px){
+    .series-principal{
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .series-conteudos{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .series-conteudos a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .anos1{
+        width: 305px;
+        background-color: #F2C12E;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 20px;
+    }
+
+    .anos1 img{
+        width: 300px;
+        border-radius: 10px;
+    }
+
+    .anos2{
+        width: 305px;
+        background-color: #7F58A6;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .anos2 img{
+        width: 300px;
+        border-radius: 10px;
+    }
+    
+}

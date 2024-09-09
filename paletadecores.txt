@@ -1,0 +1,28 @@
+#F24162	 - Rosa
+#F2ACEE - Rosa Claro
+#7F58A6 - Roxo
+#F2C12E - Amarelo
+#F2AD94 - Bege
+
+
+
+@media screen and (min-width: 0){
+    
+}
+
+@media screen and (min-width: 768px){
+    
+}
+
+
+@media screen and (min-width: 992px){
+
+    
+}
+
+
+
+    
+    
+    
+     

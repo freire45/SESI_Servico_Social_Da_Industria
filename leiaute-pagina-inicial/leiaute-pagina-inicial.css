@@ -1,0 +1,1155 @@
+@media screen and (min-width: 0){
+    .conteudos-cabecalho{
+        width: 340px;
+        margin-left: auto;
+        margin-right: auto;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo-sesi{
+        width: 150px;
+    }
+
+    .titulo-principal{
+        font-size: 0.8rem;
+    }
+
+    
+    .menu{
+        background-color: #F2C12E;
+        font-size: 0.8rem;
+    }
+
+    .menu-organizar{
+        width: 340px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .menu-organizar div{
+        color: #b18c1d;
+        border: 2px solid #F2AD94;
+        width: 100px;
+        border-radius: 5px;
+        text-align: center;
+        background-color: #7F58A6;
+    }
+
+    .menu-organizar div:hover{
+        border-color: #7F58A6;
+        background-color: #F2ACEE;
+        
+    }
+
+    .links-menu{
+        padding: 10px;
+        height: 30px;
+        
+    }
+
+    .links-menu a{
+        text-decoration: none;
+        color: #2d1c3d ;
+        font-size: 0.8rem;
+        
+    }
+
+    .titulo-carrossel{
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .titulo-carrossel h2{
+        font-size: 1rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        }
+
+        .rodape{
+            background-color: #F2C12E;
+            border-radius: 0px 0px 5px 5px;
+        }
+    
+        .rodape-conteudos{
+            width: 340px;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 1rem;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            flex-wrap: wrap;
+                }
+    
+        .rodape-conteudos div{
+           padding-left: 10px;
+        }
+    
+        .rodape-conteudos h2{
+            font-size: 1.2rem;
+            font-weight: bolder;
+            margin-bottom: 5px;
+    
+        }
+    
+        .direitos{
+            width: 340px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+        .titulo-direitos{
+            font-size: 1.2rem;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+
+        
+        .carrossel{
+            width: 340px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+            .slider{
+                margin: 20px auto;
+                width: 340px;
+                height: 200px;
+                overflow: hidden;
+                border-radius: 5px;
+            }
+        
+            .slides{
+                width: 340px;
+                height: 200px;
+                display: flex;
+            }
+        
+            .slides input{
+                display: none;
+            }
+        
+            .slide{
+                width: 340px;
+                position: relative;
+                transition: 2s;
+            }
+        
+            .slide img{
+                width: 340px;
+                height: 200px;
+            }
+        
+            .manual-navigation{
+                position: absolute;
+                width: 340px;
+                margin-top: -40px;
+                display: flex;
+                justify-content: center;
+            }
+        
+            .manual-btn{
+                border: 2px solid #FFF;
+                padding: 5px;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: 1s;
+            }
+        
+            .manual-btn:not(:last-child){
+                margin-right: 40px;
+            }
+        
+            .manual-btn:hover{
+                background-color: #FFF;
+            }
+        
+            #radio1:checked ~ .first{
+                margin-left:0;
+            }
+        
+            #radio2:checked ~ .first{
+                margin-left:-25%;
+            }
+        
+            #radio3:checked ~ .first{
+                margin-left:-50%;
+            }
+            
+            .navigation-auto div{
+                border: 2px solid #20a6FF;
+                padding: 5px;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: 1s;
+            }
+        
+            .navigation-auto{
+                position: absolute;
+                width: 340px;
+                margin-top: -1230px;
+                display: flex;
+                justify-content: center;
+            }
+        
+            .navigation-auto div:not(:last-child){
+        
+                margin-right: 40px;
+            }
+        
+            #radio1:checked ~ .navigation-auto .auto-btn1{
+                background-color: #FFF;
+            }
+        
+            #radio2:checked ~ .navigation-auto .auto-btn2{
+                background-color: #FFF;
+            }
+        
+            #radio3:checked ~ .navigation-auto .auto-btn3{
+                background-color: #FFF;
+            }
+        
+        .fundo-descricao{
+            background-color: #7F58A6;
+            margin: 0;
+            padding: 30px 2px 30px 2px;;
+        }
+    
+        .titulo-secundario{
+            font-size: 1rem;
+            margin-bottom: 15px;
+            color: white;
+        }
+    
+        .ensinofundamental1fundo{
+            background-color: #F2AD94;
+    
+            padding: 30px 2px 30px 2px;
+        }
+    
+        .ensinofundamental1fundo a{
+            text-decoration: none;
+        }
+    
+        .ensinfundamental1{
+            width: 340px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            flex-wrap: wrap;
+        }
+    
+        .ensinfundamental1 img{
+            width: 200px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+    
+        .ensinfundamental1 p{
+            font-size: 0.8rem;
+            text-align: justify;
+    
+        }
+    
+        .ensinofundamental2fundo{
+            background-color: #F2C12E;
+    
+            padding: 30px 2px 30px 2px;;
+        }
+    
+        .ensinofundamental2fundo a{
+            text-decoration: none;
+        }
+    
+        .ensinofundamental2{
+            width: 340px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            flex-wrap: wrap;
+            flex-direction: column-reverse;
+        }
+    
+        .ensinofundamental2 img{
+            width: 200px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+    
+        .ensinofundamental2 p{
+            font-size: 0.8rem;
+            text-align: justify;
+    
+        }
+    
+        .ensinomediofundo{
+            background-color: #F24162;
+            padding: 30px 2px 30px 2px;
+        }
+    
+        .ensinomediofundo a{
+            text-decoration: none;
+        }
+    
+        .ensinomedio{
+            width: 340px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            flex-wrap: wrap;
+        }
+
+        .titulo-secundario-2{
+            font-size: 1rem;
+            text-align: center;
+            color: black;
+        }
+    
+        .ensinomedio img{
+            width: 200px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+    
+        .ensinomedio p{
+            font-size: 0.8rem;
+            text-align: justify;
+    
+        }
+    
+        .paragrafo{
+            font-size: 0.8rem;
+            text-align: justify;
+            margin-bottom: 5px;
+            color: white;
+            line-height: 2rem;
+        }
+    
+        .descricao{
+            width: 340px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+        .rodape{
+            background-color: #F2C12E;
+            border-radius: 0px 0px 5px 5px;
+        }
+    
+        .rodape-conteudos{
+            width: 340px;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 0.8rem;
+            padding-top: 20px;
+            padding-bottom: 20px;
+                }
+    
+        .rodape-conteudos div{
+           padding-left: 10px;
+        }
+    
+        .rodape-conteudos h2{
+            font-size: 0.8rem;
+            font-weight: bolder;
+            margin-bottom: 5px;
+    
+        }
+    
+        .direitos{
+            width: 340px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+        .titulo-direitos{
+            font-size: 1.0rem;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+    
+}
+
+@media screen and (min-width: 768px){
+    .conteudos-cabecalho{
+        width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo-sesi{
+        width: 200px;
+    }
+
+    .titulo-principal{
+        font-size: 1.6rem;
+    }
+
+    .menu{
+        background-color: #F2C12E;
+        
+    }
+
+    .menu-organizar{
+        width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .menu-organizar div{
+        color: #b18c1d;
+        border: 2px solid #F2AD94;
+        width: 200px;
+        border-radius: 5px;
+        text-align: center;
+        background-color: #7F58A6;
+    }
+
+    .menu-organizar div:hover{
+        border-color: #7F58A6;
+        background-color: #F2ACEE;
+        
+    }
+
+    .links-menu{
+        padding: 10px;
+    }
+
+    .links-menu a{
+        text-decoration: none;
+        color: #2d1c3d ;
+        font-size: 1.2rem;
+        
+    }
+
+    .titulo-carrossel{
+        width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .titulo-carrossel h2{
+        font-size: 2rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        }
+
+        .rodape{
+            background-color: #F2C12E;
+            border-radius: 0px 0px 5px 5px;
+        }
+    
+        .rodape-conteudos{
+            width: 750px;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 1.2rem;
+            padding-top: 20px;
+            padding-bottom: 20px;
+                }
+    
+        .rodape-conteudos div{
+           padding-left: 10px;
+        }
+    
+        .rodape-conteudos h2{
+            font-size: 1.4rem;
+            font-weight: bolder;
+            margin-bottom: 5px;
+    
+        }
+    
+        .direitos{
+            width: 750px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+        .titulo-direitos{
+            font-size: 2rem;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+
+        .carrossel{
+            width: 750px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+            .slider{
+                margin: 20px auto;
+                width: 750px;
+                height: 400px;
+                overflow: hidden;
+                border-radius: 5px;
+            }
+        
+            .slides{
+                width: 750px;
+                height: 400px;
+                display: flex;
+            }
+        
+            .slides input{
+                display: none;
+            }
+        
+            .slide{
+                width: 750px;
+                position: relative;
+                transition: 2s;
+            }
+        
+            .slide img{
+                width: 750px;
+                height: 400px;
+            }
+        
+            .manual-navigation{
+                position: absolute;
+                width: 750px;
+                margin-top: -40px;
+                display: flex;
+                justify-content: center;
+            }
+        
+            .manual-btn{
+                border: 2px solid #FFF;
+                padding: 5px;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: 1s;
+            }
+        
+            .manual-btn:not(:last-child){
+                margin-right: 40px;
+            }
+        
+            .manual-btn:hover{
+                background-color: #FFF;
+            }
+        
+            #radio1:checked ~ .first{
+                margin-left:0;
+            }
+        
+            #radio2:checked ~ .first{
+                margin-left:-25%;
+            }
+        
+            #radio3:checked ~ .first{
+                margin-left:-50%;
+            }
+            
+            .navigation-auto div{
+                border: 2px solid #20a6FF;
+                padding: 5px;
+                border-radius: 10px;
+                cursor: pointer;
+                transition: 1s;
+            }
+        
+            .navigation-auto{
+                position: absolute;
+                width: 750px;
+                margin-top: -1230px;
+                display: flex;
+                justify-content: center;
+            }
+        
+            .navigation-auto div:not(:last-child){
+        
+                margin-right: 40px;
+            }
+        
+            #radio1:checked ~ .navigation-auto .auto-btn1{
+                background-color: #FFF;
+            }
+        
+            #radio2:checked ~ .navigation-auto .auto-btn2{
+                background-color: #FFF;
+            }
+        
+            #radio3:checked ~ .navigation-auto .auto-btn3{
+                background-color: #FFF;
+            }
+        
+        .fundo-descricao{
+            background-color: #7F58A6;
+            margin: 0;
+            padding: 30px 2px 30px 2px;;
+        }
+    
+        .titulo-secundario{
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            color: white;
+        }
+    
+        .ensinofundamental1fundo{
+            background-color: #F2AD94;
+    
+            padding: 30px 2px 30px 2px;
+        }
+    
+        .ensinofundamental1fundo a{
+            text-decoration: none;
+        }
+    
+        .ensinfundamental1{
+            width: 750px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            flex-wrap: nowrap;
+            
+        }
+    
+        .ensinfundamental1 img{
+            width: 350px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+    
+        .ensinfundamental1 p{
+            font-size: 1.4rem;
+            text-align: justify;
+    
+        }
+    
+        .ensinofundamental2fundo{
+            background-color: #F2C12E;
+    
+            padding: 30px 2px 30px 2px;;
+        }
+    
+        .ensinofundamental2fundo a{
+            text-decoration: none;
+        }
+    
+        .ensinofundamental2{
+            width: 750px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            
+        }
+    
+        .ensinofundamental2 img{
+            width: 350px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+    
+        .ensinofundamental2 p{
+            font-size: 1.4rem;
+            text-align: justify;
+    
+        }
+    
+        .ensinomediofundo{
+            background-color: #F24162;
+            padding: 30px 2px 30px 2px;
+        }
+    
+        .ensinomediofundo a{
+            text-decoration: none;
+        }
+
+        .titulo-secundario-2{
+            font-size: 1.4rem;
+            text-align: center;
+            color: black;
+        }
+    
+        .ensinomedio{
+            width: 750px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: black;
+            flex-wrap: nowrap;
+        }
+    
+        .ensinomedio img{
+            width: 350px;
+            border-radius: 10px;
+            margin: 10px;
+        }
+    
+        .ensinomedio p{
+            font-size: 1.4rem;
+            text-align: justify;
+    
+        }
+    
+        .paragrafo{
+            font-size: 1.4rem;
+            text-align: justify;
+            margin-bottom: 5px;
+            color: white;
+            line-height: 2rem;
+        }
+    
+        .descricao{
+            width: 750px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+        .rodape{
+            background-color: #F2C12E;
+            border-radius: 0px 0px 5px 5px;
+        }
+    
+        .rodape-conteudos{
+            width: 750px;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 1.2rem;
+            padding-top: 20px;
+            padding-bottom: 20px;
+                }
+    
+        .rodape-conteudos div{
+           padding-left: 10px;
+        }
+    
+        .rodape-conteudos h2{
+            font-size: 1.4rem;
+            font-weight: bolder;
+            margin-bottom: 5px;
+    
+        }
+    
+        .direitos{
+            width: 750px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+        .titulo-direitos{
+            font-size: 2rem;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+    
+        
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+@media screen and (min-width: 992px){
+    .conteudos-cabecalho{
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo-sesi{
+        width: 200px;
+    }
+
+    .titulo-principal{
+        font-size: 1.6rem;
+    }
+
+    .menu{
+        background-color: #F2C12E;
+        
+    }
+
+    .menu-organizar{
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .menu-organizar div{
+        color: #b18c1d;
+        border: 2px solid #F2AD94;
+        width: 200px;
+        border-radius: 5px;
+        text-align: center;
+        background-color: #7F58A6;
+    }
+
+    .menu-organizar div:hover{
+        border-color: #7F58A6;
+        background-color: #F2ACEE;
+        
+    }
+
+    .links-menu{
+        padding: 10px;
+    }
+
+    .links-menu a{
+        text-decoration: none;
+        color: #2d1c3d ;
+        font-size: 1.2rem;
+        
+    }
+
+    .titulo-carrossel{
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .titulo-carrossel h2{
+        font-size: 2rem;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        }
+    
+    .carrossel{
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+        .slider{
+            margin: 20px auto;
+            width: 900px;
+            height: 400px;
+            overflow: hidden;
+            border-radius: 5px;
+        }
+    
+        .slides{
+            width: 900px;
+            height: 400px;
+            display: flex;
+        }
+    
+        .slides input{
+            display: none;
+        }
+    
+        .slide{
+            width: 900px;
+            position: relative;
+            transition: 2s;
+        }
+    
+        .slide img{
+            width: 900px;
+            height: 400px;
+        }
+    
+        .manual-navigation{
+            position: absolute;
+            width: 900px;
+            margin-top: -40px;
+            display: flex;
+            justify-content: center;
+        }
+    
+        .manual-btn{
+            border: 2px solid #FFF;
+            padding: 5px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 1s;
+        }
+    
+        .manual-btn:not(:last-child){
+            margin-right: 40px;
+        }
+    
+        .manual-btn:hover{
+            background-color: #FFF;
+        }
+    
+        #radio1:checked ~ .first{
+            margin-left:0;
+        }
+    
+        #radio2:checked ~ .first{
+            margin-left:-25%;
+        }
+    
+        #radio3:checked ~ .first{
+            margin-left:-50%;
+        }
+        
+        .navigation-auto div{
+            border: 2px solid #20a6FF;
+            padding: 5px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 1s;
+        }
+    
+        .navigation-auto{
+            position: absolute;
+            width: 900px;
+            margin-top: -1230px;
+            display: flex;
+            justify-content: center;
+        }
+    
+        .navigation-auto div:not(:last-child){
+    
+            margin-right: 40px;
+        }
+    
+        #radio1:checked ~ .navigation-auto .auto-btn1{
+            background-color: #FFF;
+        }
+    
+        #radio2:checked ~ .navigation-auto .auto-btn2{
+            background-color: #FFF;
+        }
+    
+        #radio3:checked ~ .navigation-auto .auto-btn3{
+            background-color: #FFF;
+        }
+    
+    .fundo-descricao{
+        background-color: #7F58A6;
+        margin: 0;
+        padding: 75px;
+    }
+
+    .titulo-secundario{
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+        color: white;
+    }
+
+    .ensinofundamental1fundo{
+        background-color: #F2AD94;
+
+        padding: 75px;
+    }
+
+    .ensinofundamental1fundo a{
+        text-decoration: none;
+    }
+
+    .ensinfundamental1{
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        flex-wrap: nowrap;
+    }
+
+    .ensinfundamental1 img{
+        width: 450px;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .ensinfundamental1 p{
+        font-size: 1.4rem;
+        text-align: justify;
+
+    }
+
+    .ensinofundamental2fundo{
+        background-color: #F2C12E;
+
+        padding: 75px;
+    }
+
+    .ensinofundamental2fundo a{
+        text-decoration: none;
+    }
+
+    .ensinofundamental2{
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+
+    .ensinofundamental2 img{
+        width: 450px;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .ensinofundamental2 p{
+        font-size: 1.4rem;
+        text-align: justify;
+
+    }
+
+    .ensinomediofundo{
+        background-color: #F24162;
+        padding: 75px;
+    }
+
+    .ensinomediofundo a{
+        text-decoration: none;
+    }
+
+    .titulo-secundario-2{
+        font-size: 1.8rem;
+        text-align: center;
+        color: black;
+    }
+
+    .ensinomedio{
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: black;
+        flex-wrap: nowrap;
+    }
+
+    .ensinomedio img{
+        width: 450px;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .ensinomedio p{
+        font-size: 1.4rem;
+        text-align: justify;
+
+    }
+
+    .paragrafo{
+        font-size: 1.4rem;
+        text-align: justify;
+        margin-bottom: 5px;
+        color: white;
+        line-height: 2rem;
+    }
+
+    .descricao{
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .rodape{
+        background-color: #F2C12E;
+        border-radius: 0px 0px 5px 5px;
+    }
+
+    .rodape-conteudos{
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 1.2rem;
+        padding-top: 20px;
+        padding-bottom: 20px;
+            }
+
+    .rodape-conteudos div{
+       padding-left: 10px;
+    }
+
+    .rodape-conteudos h2{
+        font-size: 1.4rem;
+        font-weight: bolder;
+        margin-bottom: 5px;
+
+    }
+
+    .direitos{
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .titulo-direitos{
+        font-size: 2rem;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    
+
+
+
+
+
+    
+}
