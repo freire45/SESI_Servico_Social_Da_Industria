@@ -1,0 +1,118 @@
+@media screen and (min-width: 0){
+    .cabecalho-uc{
+        width: 340px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .unidades-curriculares{
+        width: 340px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .unidades-curriculares-um{
+        background-color: #F2ACEE;
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        color: #F24162;
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+
+    .unidades-curriculares-dois{
+        background-color: #7F58A6;
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        color: #F2C12E;
+        font-size: 1.2rem;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+    .cabecalho-uc{
+        width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .unidades-curriculares{
+        width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .unidades-curriculares-um{
+        background-color: #F2ACEE;
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        color: #F24162;
+        font-size: 1.6rem;
+        margin-bottom: 10px;
+    }
+
+    .unidades-curriculares-dois{
+        background-color: #7F58A6;
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        color: #F2C12E;
+        font-size: 1.6rem;
+        margin-bottom: 10px;
+    }
+}
+
+
+@media screen and (min-width: 992px){
+    .cabecalho-uc{
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .unidades-curriculares{
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .unidades-curriculares-um{
+        background-color: #F2ACEE;
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        color: #F24162;
+        font-size: 1.6rem;
+        margin-bottom: 10px;
+    }
+
+    .unidades-curriculares-dois{
+        background-color: #7F58A6;
+        border-radius: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        text-align: center;
+        color: #F2C12E;
+        font-size: 1.6rem;
+        margin-bottom: 10px;
+    }
+
+
+    
+}
