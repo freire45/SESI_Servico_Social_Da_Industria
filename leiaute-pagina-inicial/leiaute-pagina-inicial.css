@@ -118,6 +118,7 @@
             width: 340px;
             margin-left: auto;
             margin-right: auto;
+                       
         }
     
             .slider{
@@ -868,21 +869,22 @@
         }
     
     .carrossel{
-        width: 900px;
+        width: 800px;
         margin-left: auto;
         margin-right: auto;
+        
     }
 
         .slider{
             margin: 20px auto;
-            width: 900px;
+            width: 800px;
             height: 400px;
             overflow: hidden;
             border-radius: 5px;
         }
     
         .slides{
-            width: 900px;
+            width: 400%;
             height: 400px;
             display: flex;
         }
@@ -892,13 +894,13 @@
         }
     
         .slide{
-            width: 900px;
+            width: 33%;
             position: relative;
             transition: 2s;
         }
     
         .slide img{
-            width: 900px;
+            width: 800px;
             height: 400px;
         }
     
