@@ -25,4 +25,15 @@
     
     
     
-     
+<div class="materias-area">
+                <div class="materias-um">
+                    <img alt="" src="">
+                    <h2></h2>
+                    <p> </p>
+                </div>
+                <div class="materias-dois">
+                    <img alt="" src="">
+                    <h2></h2>
+                    <p></p>
+                </div>
+            </div>     

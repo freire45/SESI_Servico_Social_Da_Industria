@@ -1,0 +1,199 @@
+@media screen and (min-width: 0){
+    .materias-area{
+        width: 340px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .materias-um{
+        width: 320px;
+        background-color: #F2ACEE;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .materias-um img{
+        width: 300px;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .materias-um h2{
+        font-size: 1.4rem;
+        color: #7F58A6;
+        margin: 0px 20px;
+        text-align: center;
+    }
+
+    .materias-um p{
+        font-size: 1rem;
+        color: white;
+        padding: 10px;
+        text-align: justify;
+    }
+
+    .materias-dois{
+        width: 320px;
+        background-color: #7F58A6;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .materias-dois img{
+        width: 300px;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .materias-dois h2{
+        font-size: 1.4rem;
+        color: #F24162;
+        margin: 0px 20px;
+    }
+
+    .materias-dois p{
+        font-size: 1rem;
+        color: #F2C12E;
+        padding: 10px;
+        text-align: justify;
+    }
+
+    
+}
+
+@media screen and (min-width: 768px){
+
+    .materias-area{
+        width: 750px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .materias-um{
+        width: 200px;
+        background-color: #F2ACEE;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .materias-um img{
+        width: 180px;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .materias-um h2{
+        font-size: 1.4rem;
+        color: #7F58A6;
+        margin: 0px 20px;
+    }
+
+    .materias-um p{
+        font-size: 1rem;
+        color: white;
+        padding: 10px;
+        text-align: justify;
+    }
+
+    .materias-dois{
+        width: 200px;
+        background-color: #7F58A6;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .materias-dois img{
+        width: 180px;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .materias-dois h2{
+        font-size: 1.4rem;
+        color: #F24162;
+        margin: 0px 20px;
+    }
+
+    .materias-dois p{
+        font-size: 1rem;
+        color: #F2C12E;
+        padding: 10px;
+        text-align: justify;
+    }
+
+    
+}
+
+
+@media screen and (min-width: 992px){
+    .materias-area{
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .materias-um{
+        width: 250px;
+        background-color: #F2ACEE;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .materias-um img{
+        width: 230px;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .materias-um h2{
+        font-size: 1.4rem;
+        color: #7F58A6;
+        margin: 0px 20px;
+    }
+
+    .materias-um p{
+        font-size: 1rem;
+        color: white;
+        padding: 10px;
+        text-align: justify;
+    }
+
+    .materias-dois{
+        width: 250px;
+        background-color: #7F58A6;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .materias-dois img{
+        width: 230px;
+        border-radius: 10px;
+        margin: 10px;
+    }
+
+    .materias-dois h2{
+        font-size: 1.4rem;
+        color: #F24162;
+        margin: 0px 20px;
+    }
+
+    .materias-dois p{
+        font-size: 1rem;
+        color: #F2C12E;
+        padding: 10px;
+        text-align: justify;
+    }
+
+
+
+    
+}
